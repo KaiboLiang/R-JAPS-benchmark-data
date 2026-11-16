@@ -1,0 +1,13 @@
+arrival_law,p_early,p_on_time,p_late,beta_a,beta_b,peak_share_probability,max_anchor_probability,deviation_amplitude,nominal_jitter_max_halfwidth_min
+HF_LS_matched,0.12,0.7,0.18,1,5,0,0,with_response,0
+HF_LS_old,0.08,0.8,0.12,2,5,0,0,with_response,0
+LF_HS_matched,0.024,0.94,0.036,5,1,0,0,with_response,0
+LF_HS_old,0.02,0.95,0.03,5,2,0,0,with_response,0
+anchored_q25,0.04,0.9,0.06,2,2,0,0.25,base_only,0
+anchored_q50,0.04,0.9,0.06,2,2,0,0.5,base_only,0
+anchored_q50_response_amplitude,0.04,0.9,0.06,2,2,0,0.5,with_response,0
+baseline,0.04,0.9,0.06,2,2,0,0,with_response,0
+correlated_baseline,0.04,0.9,0.06,2,2,0.3,0,with_response,0
+late_skewed,0.02,0.9,0.08,2,2,0,0,with_response,0
+new_center_base_amplitude,0.04,0.9,0.06,2,2,0,0.0,base_only,0
+continuous_nominal,0.04,0.9,0.06,2,2,0,0,with_response,2.0
